@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('html/_head.htm',{
+"title":"Pro19"
+})
+
+<body>
+	<div class="wrapper _game">
+		<div class="wrapper__main main">
+			<div class="main__body">
+				<div class="main__content">
+					<div class="main__buttons-box">
+						<div class="main__header header _lobby">
+							<div class="header__body">
+								<div class="header__score-box score-box">
+									<div class="score-box__body">
+										<div class="score-box__icon"></div>
+										<div class="score-box__score score">0</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="main__title-box title-box">
+							<div class="title-box__body">
+								<div class="title-box__pizza pizza">
+									<div class="pizza__body">
+										<div class="pizza__circle"></div>
+										<div data-pizza="1" class="pizza__piece">
+											<img src="@img/pizza/pc-1.png" alt="Image">
+										</div>
+										<div data-pizza="2" class="pizza__piece">
+											<img src="@img/pizza/pc-2.png" alt="Image">
+										</div>
+										<div data-pizza="3" class="pizza__piece">
+											<img src="@img/pizza/pc-3.png" alt="Image">
+										</div>
+										<div data-pizza="4" class="pizza__piece">
+											<img src="@img/pizza/pc-4.png" alt="Image">
+										</div>
+										<div data-pizza="5" class="pizza__piece">
+											<img src="@img/pizza/pc-5.png" alt="Image">
+										</div>
+										<div data-pizza="6" class="pizza__piece">
+											<img src="@img/pizza/pc-6.png" alt="Image">
+										</div>
+										<div data-pizza="7" class="pizza__piece">
+											<img src="@img/pizza/pc-7.png" alt="Image">
+										</div>
+										<div data-pizza="8" class="pizza__piece">
+											<img src="@img/pizza/pc-8.png" alt="Image">
+										</div>
+									</div>
+								</div>
+								<div class="title-box__title-icon"></div>
+							</div>
+						</div>
+						<div class="main__level-box">
+							<span class="_kn-1"></span>
+							<span class="_kn-2"></span>
+							<div class="main__level"><span>LEVEL 1</span> </div>
+						</div>
+						<div class="main__buttons">
+							<button type="button" data-btn="game"
+								class="main__button button _purple"><span>PLAY</span></button>
+							<button type="button" data-btn="shop" class="main__button button"><span>Shop</span></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="wrapper__shop shop">
+			<div class="shop__body">
+				<div class="shop__header header _wb">
+					<div class="header__body">
+						<button type="button" data-btn="shop-home" class="header__button-back"></button>
+						<div class="header__score-box score-box">
+							<div class="score-box__body">
+								<div class="score-box__icon"></div>
+								<div class="score-box__score score">0</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="shop__items">
+					<div data-item="1" class="shop__item shop__item_1">
+						<div class="shop__item-inner shop__item-inner_1">
+							<div class="shop__price-inner">
+								<div class="shop__price-icon"></div>
+								<div data-price="1" class="shop__price text">0</div>
+							</div>
+							<div class="shop__image">
+								<div class="shop__image-inner">
+									<img src="@img/shop/shop-1.svg" alt="Image">
+								</div>
+							</div>
+						</div>
+						<div data-shop-button="1" class="shop__button button">buy</div>
+					</div>
+					<div data-item="2" class="shop__item shop__item_2">
+						<div class="shop__item-inner shop__item-inner_2">
+							<div class="shop__price-inner">
+								<div class="shop__price-icon"></div>
+								<div data-price="2" class="shop__price text">0</div>
+							</div>
+							<div class="shop__image">
+								<div class="shop__image-inner">
+									<img src="@img/shop/shop-2.svg" alt="Image">
+								</div>
+							</div>
+						</div>
+						<div data-shop-button="2" class="shop__button button">buy</div>
+					</div>
+					<div data-item="3" class="shop__item shop__item_3">
+						<div class="shop__item-inner shop__item-inner_3">
+							<div class="shop__price-inner">
+								<div class="shop__price-icon"></div>
+								<div data-price="3" class="shop__price text">0</div>
+							</div>
+							<div class="shop__image">
+								<div class="shop__image-inner">
+									<img src="@img/shop/shop-3.svg" alt="Image">
+								</div>
+							</div>
+						</div>
+						<div data-shop-button="3" class="shop__button button">buy</div>
+					</div>
+					<div data-item="4" class="shop__item shop__item_4">
+						<div class="shop__item-inner shop__item-inner_4">
+							<div class="shop__price-inner">
+								<div class="shop__price-icon"></div>
+								<div data-price="4" class="shop__price text">0</div>
+							</div>
+							<div class="shop__image">
+								<div class="shop__image-inner">
+									<img src="@img/shop/shop-4.svg" alt="Image">
+								</div>
+							</div>
+						</div>
+						<div data-shop-button="4" class="shop__button button">buy</div>
+					</div>
+					<div data-item="5" class="shop__item shop__item_5">
+						<div class="shop__item-inner shop__item-inner_5">
+							<div class="shop__price-inner">
+								<div class="shop__price-icon"></div>
+								<div data-price="5" class="shop__price text">0</div>
+							</div>
+							<div class="shop__image">
+								<div class="shop__image-inner">
+									<img src="@img/shop/shop-5.svg" alt="Image">
+								</div>
+							</div>
+						</div>
+						<div data-shop-button="5" class="shop__button button">buy</div>
+					</div>
+					<div data-item="6" class="shop__item shop__item_6">
+						<div class="shop__item-inner shop__item-inner_6">
+							<div class="shop__price-inner">
+								<div class="shop__price-icon"></div>
+								<div data-price="6" class="shop__price text">0</div>
+							</div>
+							<div class="shop__image">
+								<div class="shop__image-inner">
+									<img src="@img/shop/shop-6.svg" alt="Image">
+								</div>
+							</div>
+						</div>
+						<div data-shop-button="6" class="shop__button button">buy</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="wrapper__game game">
+			<div class="game__body">
+				<div class="game__header header _wb">
+					<div class="header__body">
+						<button type="button" data-btn="game-home" class="header__button-back"></button>
+						<div class="header__score-box score-box">
+							<div class="score-box__body">
+								<div class="score-box__icon"></div>
+								<div class="score-box__score score">0</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="game__title">LEVEL#1</div>
+				<div class="game__field">
+					<span class="dot"></span>
+					<div class="game__pizza pizza">
+						<div class="pizza__body">
+							<div class="pizza__circle"></div>
+							<div data-pizza="1" data-pizza-count="10" class="pizza__piece">
+								<span></span>
+								<img src="@img/pizza/pc-1.png" alt="Image">
+							</div>
+							<div data-pizza="2" data-pizza-count="110" class="pizza__piece">
+								<span></span>
+								<img src="@img/pizza/pc-2.png" alt="Image">
+							</div>
+							<div data-pizza="3" data-pizza-count="500" class="pizza__piece">
+								<span></span>
+								<img src="@img/pizza/pc-3.png" alt="Image">
+							</div>
+							<div data-pizza="4" data-pizza-count="5" class="pizza__piece">
+								<span></span>
+								<img src="@img/pizza/pc-4.png" alt="Image">
+							</div>
+							<div data-pizza="5" data-pizza-count="15" class="pizza__piece">
+								<span></span>
+								<img src="@img/pizza/pc-5.png" alt="Image">
+							</div>
+							<div data-pizza="6" data-pizza-count="50" class="pizza__piece">
+								<span></span>
+								<img src="@img/pizza/pc-6.png" alt="Image">
+							</div>
+							<div data-pizza="7" data-pizza-count="75" class="pizza__piece">
+								<span></span>
+								<img src="@img/pizza/pc-7.png" alt="Image">
+							</div>
+							<div data-pizza="8" data-pizza-count="30" class="pizza__piece">
+								<span></span>
+								<img src="@img/pizza/pc-8.png" alt="Image">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="game__weapon">
+					<div class="game__attempts">
+						<span></span><span></span><span></span><span></span>
+					</div>
+					<div class="game__knight"></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="wrapper__final final">
+			<div class="final__body">
+				<div class="final__title">You win!</div>
+				<div class="final__score-box score-box">
+					<div class="score-box__body button-bg">
+						<div class="score-box__icon icon-coin"><span></span> </div>
+						<div class="score-box__score final-check">0</div>
+					</div>
+				</div>
+				<div class="final__button-box">
+					<button type="button" data-btn="game-home" class="final__button"><span>Ok</span></button>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	@@include('html/_js.htm',{})
+</body>
+
+</html>
