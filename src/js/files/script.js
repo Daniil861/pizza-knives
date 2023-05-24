@@ -157,7 +157,7 @@ export const configGame = {
 	startBottomPosKnight: 60,
 
 	constAttempt: 4,
-	currentAttempt: 10,
+	currentAttempt: 4,
 
 	currentWinCount: 0,
 	levelWinCount: 0
